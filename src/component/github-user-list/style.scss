@@ -1,0 +1,20 @@
+.component.github-user-list{
+	padding: 10px 15px;
+	column-width: 200px;
+	div{
+		cursor: pointer;
+		img{
+			width: 40px; 
+			height: 40px;
+			border-radius: 20px;
+			vertical-align: bottom;
+		}
+		line-height: 40px;
+		background-color: #444;
+		color: #fff;
+		padding: 3px;
+		border-radius: 23px;
+		margin-top: 3px;
+		-webkit-column-break-inside: avoid;
+	}
+}

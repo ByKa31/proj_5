@@ -1,0 +1,5 @@
+{% for user in users %}
+    <div (user) data-index="{{loop.index0}}">
+        <img src="{{user.avatar_url}}"> {{ user.login }}
+    </div>
+{% endfor %}
